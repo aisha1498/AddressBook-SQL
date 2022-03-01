@@ -48,3 +48,8 @@ select * from Addressbook where State ='Maharashtra'
 select count(city) as 'city count' from Addressbook where city='Aurangabad'
 
 select count(state) as 'state count' from Addressbook where state='Maharashtra'
+
+select * from Addressbook
+ 
+ --uc8 Sort contact by firstname from city
+ select * from Addressbook where City ='Nashik' order by Firstname
