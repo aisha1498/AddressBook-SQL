@@ -32,3 +32,9 @@ select * from Addressbook
 
 update Addressbook set Firstname='Swaroop',Lastname='Patil'
 where Firstname='Siya'
+
+--UC5 delete a contact
+select * from Addressbook 
+delete from Addressbook where Firstname='Arun'
+
+select * from Addressbook
