@@ -38,3 +38,8 @@ select * from Addressbook
 delete from Addressbook where Firstname='Arun'
 
 select * from Addressbook
+
+--UC6 Retrieve Person belonging to a City or State from the Address Book
+select * from Addressbook where City='Pune'
+
+select * from Addressbook where State ='Maharashtra'
