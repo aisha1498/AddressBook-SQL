@@ -66,3 +66,6 @@ update Addressbook set Type='friend' where Firstname='Siya'
 update Addressbook set Type='family' where Firstname='Arnavi'
 
 select * from Addressbook
+
+--uc10 no of contact person count by type
+select count(*) Firstname from Addressbook where Type='family'
