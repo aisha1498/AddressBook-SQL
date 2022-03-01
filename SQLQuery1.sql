@@ -43,3 +43,8 @@ select * from Addressbook
 select * from Addressbook where City='Pune'
 
 select * from Addressbook where State ='Maharashtra'
+
+--UC7 size of addressbook by City/State
+select count(city) as 'city count' from Addressbook where city='Aurangabad'
+
+select count(state) as 'state count' from Addressbook where state='Maharashtra'
